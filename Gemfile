@@ -1,4 +1,10 @@
 source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.6'
@@ -14,7 +20,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'twitter-bootstrap-rails'
-gem 'carrierwave'
+gem 'evawreirrac'
 gem 'rmagick'
 gem 'omniauth'
 gem 'omniauth-facebook'
