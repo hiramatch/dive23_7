@@ -5,6 +5,15 @@ class User < ActiveRecord::Base
   has_many :q_points, through: :questions
   has_many :a_points, through: :answers
   # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
+  # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable, :confirmable, :omniauthable
