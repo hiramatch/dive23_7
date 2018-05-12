@@ -10,8 +10,14 @@ class UsersController < ApplicationController
      @answers = @user.answers.order('created_at DESC');
   end
 
+  def show
+     @questions = @user.questions.order('created_at DESC');
+     @answers = @user.answers.order('created_at DESC');
+  end
+
   private
     def set_user
       @user = User.find(params[:id])
     end
 end
+wwwww
