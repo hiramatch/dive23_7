@@ -12,6 +12,9 @@ class FavoritesController < ApplicationController
     @user      = User.find(params[:user_id])
     @favorite  = @user.favorites.build(favorite_params)
     @question  = @favorite.question
+    @question  = @favorite.question
+    @question  = @favorite.question
+    @question  = @favorite.question
 
     @favorites = @question.favorites
 
