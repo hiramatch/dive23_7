@@ -7,20 +7,6 @@ class QuestionsController < ApplicationController
   def index
     @questions = params[:tag].present? ? Question.tagged_with(params[:tag]) : Question.all
     @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)
     @tag = params[:tag]
   end
 
