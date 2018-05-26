@@ -12,10 +12,6 @@ class FavoritesController < ApplicationController
     @user      = User.find(params[:user_id])
     @favorite  = @user.favorites.build(favorite_params)
     @question  = @favorite.question
-    @question  = @favorite.question
-    @question  = @favorite.question
-    @question  = @favorite.question
-
     @favorites = @question.favorites
 
     # クライアント要求に応じてフォーマットを変更
@@ -45,6 +41,8 @@ class FavoritesController < ApplicationController
 
 private
   def favorite_params
+    params.require(:favorite).permit(:question_id)
+    params.require(:favorite).permit(:question_id)
     params.require(:favorite).permit(:question_id)
   end
 

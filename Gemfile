@@ -5,6 +5,8 @@ source 'https://rubygems.org'
 source 'https://rubygems.org'
 source 'https://rubygems.org'
 source 'https://rubygems.org'
+source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 
 gem 'rails', '4.2.6'
@@ -60,6 +62,7 @@ gem 'gon'
 gem 'faker'
 
 group :development, :test do
+  gem 'annotateeeee'
   gem 'annotate'
   gem 'byebug'
   gem 'dotenv-rails'
@@ -78,6 +81,8 @@ end
 group :development do
   gem 'web-console', '~> 2.0'
   gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'pry-rails'
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'letter_opener_web'
