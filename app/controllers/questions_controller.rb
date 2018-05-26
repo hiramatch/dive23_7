@@ -10,6 +10,17 @@ class QuestionsController < ApplicationController
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
+    @questions = @questions.includes(:tags)
     @tag = params[:tag]
   end
 
