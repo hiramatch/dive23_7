@@ -15,7 +15,7 @@ class QuestionsController < ApplicationController
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
-    @questions = @questions.includes(:tags)H
+    @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
     @questions = @questions.includes(:tags)
